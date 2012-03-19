@@ -1,0 +1,54 @@
+
+box-shadow(args...)
+  -moz-box-shadow args
+  -webkit-box-shadow args
+  box-shadow args
+
+border-radius(radius)
+  -webkit-border-radius radius
+  -moz-border-radius radius
+  border-radius radius
+
+nav-left-offset = -120px
+nav-top-offset = 20px
+nav-width = 200px
+nav-height = 200px
+header-height = nav-height + nav-top-offset - 80px
+
+#wrapper
+  position relative
+  width 800px
+  padding 20px;
+  background #ddd
+  box-shadow 0px 0px 8px 0px rgba(0,0,0, .50)
+
+header
+  font-size 3em
+  height: header-height
+  line-height: header-height
+  margin 0 0 0 nav-left-offset + nav-width
+
+nav
+  position absolute
+  top nav-top-offset
+  left nav-left-offset
+  width nav-width
+  height nav-height
+  background #e6e
+  box-shadow 0px 0px 8px 0px rgba(0,0,0, .50)
+  border-radius 10px
+
+#contents
+  height 500px
+  background #6ee
+  padding 80px
+  box-shadow 0px 0px 8px 0px rgba(0,0,0, .50)
+  border-radius 2px
+
+footer
+  margin -20px 0 0 20px
+  width 200px
+  height 100px
+  background #ee6
+  box-shadow 0px 0px 8px 0px rgba(0,0,0, .50)
+  border-radius 5px
