@@ -1,11 +1,13 @@
+html {
+  background: url("../images/background.jpg");
+}
+body {
+  background: url("../images/background-highlight.jpg") center 0 no-repeat;
+}
 #wrapper {
   position: relative;
   width: 800px;
   padding: 20px;
-  background: #ddd;
-  -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.50);
-  -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.50);
-  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.50);
 }
 header {
   font-size: 3em;
@@ -19,7 +21,7 @@ nav {
   left: -120px;
   width: 200px;
   height: 200px;
-  background: #e6e;
+  background: #88b6ea;
   -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.50);
   -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.50);
   box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.50);
@@ -29,7 +31,7 @@ nav {
 }
 #contents {
   height: 500px;
-  background: #6ee;
+  background: #d9e8ea;
   padding: 80px;
   -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.50);
   -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.50);
@@ -42,7 +44,7 @@ footer {
   margin: -20px 0 0 20px;
   width: 200px;
   height: 100px;
-  background: #ee6;
+  background: #b7eaa2;
   -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.50);
   -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.50);
   box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.50);
